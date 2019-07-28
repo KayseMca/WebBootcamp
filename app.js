@@ -22,7 +22,7 @@ var commentsRoutes = require("./routes/comments"),
     indexRoutes         = require("./routes/index");
 //deleting all datas in database
 //SeedDB();
-var key = keys.database;
+//var key = keys.database;
 var PORT = process.env.PORT || 5500;
 
 //"mongodb://localhost/dalxiisDB"
