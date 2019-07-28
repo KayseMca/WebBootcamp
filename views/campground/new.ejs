@@ -1,0 +1,29 @@
+
+<% include ../partials/header %>
+
+<div class="container">
+    <!--<div class="row">-->
+        <h1 style="text-align: center;">Ku dar goob cusub oo dalxiis</h1>
+        <div style="width: 30%; margin:30px auto;">
+            <form action="/campgrounds" method="POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="magaca goobta">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="gobol" placeholder="Gobolka ay ka tirsan tahay">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name ='image' placeholder="image url">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name ='faalo' placeholder="faahfaahi goobtan cusub">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-large btn-block">Submit!</button>
+                </div>
+            </form>
+            <a href="/campgrounds">Laabo</a>
+        </div>
+    <!--</div>-->
+</div>
+<% include ../partials/footer %>

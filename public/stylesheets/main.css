@@ -1,0 +1,51 @@
+
+.img-thumbnail img{
+    width: 100%;
+}
+
+.img-thumbnail{
+    padding: 0;
+}
+
+.img-thumbnail .caption-full{
+    padding: 9px;
+}
+
+#delete-form{
+    display: inline;
+}
+a:link, a:visited { 
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  a:link:active, a:visited:active { 
+    color: (internal value);
+  }
+
+  .btn-sm{
+      size: 10px;
+  }
+
+  #logo{
+      width: 35px;
+      margin: 0;
+      padding: 0;
+      height: auto;
+  }
+
+
+  .btn-group-xs > .btn, .btn-xs {
+    padding: .25rem .4rem;
+    font-size: .875rem;
+    line-height: .5;
+    border-radius: .2rem;
+  }
+  .btn-group-xs > .btn, .btn-m {
+    padding: .45rem .4rem;
+    font-size: .890rem;
+    line-height: .8;
+    border-radius: .2rem;
+  }
