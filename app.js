@@ -12,7 +12,7 @@ var express     = require('express'),
     User        = require('./models/user'),
     passport    =require('passport'),
     methodOverride = require('method-override'),
-    keys        = require("./keys/keys")
+    //keys        = require("./keys/keys")
     app         = express();
 
 var expressSanitizer = require("express-sanitizer");
